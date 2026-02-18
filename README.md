@@ -80,7 +80,7 @@ MiniBank
 1. Clone the repository
 
    ```
-   git clone <your-repo-link>
+   git clone <https://github.com/biiikrammm/Mini-Bank>
    ```
 
 2. Open in your preferred IDE (IntelliJ / Eclipse / VS Code)
