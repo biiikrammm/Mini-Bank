@@ -1,12 +1,11 @@
-package PRACTICE_QUESTIONS;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Arrays;
 import java.util.Scanner;
 
 class Account{
-   private int accountNumber;
-   private String accountHolderName;
+   private final int accountNumber;
+   private final String accountHolderName;
    private BigDecimal accountBalance = BigDecimal.ZERO;
 
    public Account(int accountNumber, String accountHolderName){
@@ -58,10 +57,10 @@ public class MiniBank {
       Scanner in = new Scanner(System.in);
 
       System.out.print("Number of Accounts: ");
-      int numberOfAccounts = in.nextInt();
-      Account [] accounts = new Account[numberOfAccounts];
+      int totalAccounts = in.nextInt();
+      Account [] accounts = new Account[totalAccounts];
 
-      for(int i = 0; i < numberOfAccounts; i++){
+      for(int i = 0; i < totalAccounts; i++){
          System.out.print("Enter Account Number: ");
          int accountNumber = in.nextInt(); in.nextLine();
 
