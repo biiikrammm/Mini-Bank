@@ -90,7 +90,6 @@ public class MiniBank {
          int index = searchAccount(accounts,accountNo);
          if(index == -1){
             System.out.println("Account Not Found!!");
-            continue;
          }
 
          else {
@@ -159,3 +158,4 @@ public class MiniBank {
       return -1;
    }
 }
+
